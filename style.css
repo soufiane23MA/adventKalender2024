@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 body{
-	background-image: url(5544.jpg);
+	background-image: url(images/5544.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -46,6 +46,7 @@ h1{
 	font-style:italic;
 	transition: transform 0.8s, opacity 0.8s;
 	 
+	 
 }
 .grid.floating {
 	opacity: 0.6;
@@ -54,18 +55,18 @@ h1{
  
  
 .grid.active{
-	transform: rotatey(deg);
-	background-image: url(christmas-background-with-snowflakes-bokeh-lights.jpg) ;
+	transform: rotatey(360deg);
+	background-image: url( images/petitperenoel.jpg) ;
 	background-repeat: no-repeat;
-	background-size: cover;
-	 
- 
- 
-	 
+	background-size: cover; 
+	background-position: center;
 }
-.divbtn{
-	display: flex;
-	justify-content: center;
+ 
+.btn-container {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center;    /* Centre verticalement */
+  height: 50%;          /* S'assure que le conteneur prend toute la hauteur */
 }
 
 #btn{
@@ -83,6 +84,8 @@ h1{
   text-shadow: 1px 1px 1px #000;
   border-radius: 10px;
   background-color: rgba(220, 0, 0, 1);
+	cursor: pointer;
+	
 }
 .full {
 	 
@@ -96,6 +99,10 @@ h1{
 	font-weight: bold;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Ombre pour le texte */
 }
+.full {
+	font-size:10rem;
+}
+
  
 
  
